@@ -1,6 +1,8 @@
 # Estudos URI / beecrowd
 
-Este repositório contém exercícios resolvidos da plataforma URI Online Judge, atualmente conhecida como beecrowd.
+Este repositório contém exercícios resolvidos da plataforma URI Online Judge, atualmente conhecida como beecrowd
+
+Meu perfil do beecrowd: https://judge.beecrowd.com/pt/profile/1249892
 
 ## Conteúdos estudados
 
