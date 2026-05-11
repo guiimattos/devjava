@@ -6,22 +6,20 @@ public class aula104 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double vet [] = new double[5];
+        int numero = 5;
+        double[] vet = new double[numero];
         double soma = 0;
 
         System.out.println("Digite cinco alturas de pessoas: ");
 
-        for(int i = 0; i<5; i++){
-            vet [i] = sc.nextDouble();
-        }
-        for(int i = 0; i<5; i++){
+        for(int i = 0; i < numero; i++){
+            vet[i] = sc.nextDouble();
             soma += vet[i];
         }
 
-        double media = 0.0;
-        media = soma / 5;
+        double media = soma / numero;
 
-        System.out.println("a media das alturas é: " + media);
+        System.out.println("A media das alturas é: " + media);
 
         sc.close();
     }
