@@ -12,7 +12,7 @@ public class javaudemy11 {
                 mat [i][j] = sc.nextInt();
             }
         }
-        System.out.println("Diagona principal: ");
+        System.out.println("Diagonal principal: ");
         for(int i= 0; i<N; i++){
             System.out.println(mat [i][i] + " ");
         }
